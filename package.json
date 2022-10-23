@@ -1,0 +1,22 @@
+{
+  "name": "etsgrafkom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaidarFico/ETSGRAFKOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaidarFico/ETSGRAFKOM/issues"
+  },
+  "homepage": "https://github.com/HaidarFico/ETSGRAFKOM#readme",
+  "dependencies": {
+    "three": "^0.145.0"
+  }
+}
