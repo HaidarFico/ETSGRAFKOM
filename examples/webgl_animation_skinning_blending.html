@@ -51,7 +51,15 @@
 
 			init();
 
+			const ft = new THREE.TextureLoader().load("gambar.png");
+    let skyboxGeo = new THREE.BoxGeometry(20, 20, 20);
+    const material = new THREE.MeshBasicMaterial( { map : ft } );
+    material.side = THREE.BackSide;
+    let skybox = new THREE.Mesh(skyboxGeo, material);
+    scene.add(skybox);
+
 			function init() {
+				
 
 				const container = document.getElementById( 'container' );
 
